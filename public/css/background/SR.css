@@ -1,0 +1,190 @@
+
+.icons{
+              margin-left: -8px;
+              margin-top: -10px;
+              margin-right: 0px;
+            }
+            
+            .bg-vi {
+              background-color: #82878b8e;
+              
+              margin-left: -15px;
+              margin-right: -10px;
+              margin-top: -10px; 
+              border-radius: 10px;
+              margin-bottom: -10px;
+            }
+            
+            .RSSloPea{
+              background-color: #10d8b3af;
+              margin-left: -15px;
+              margin-right: -15px;
+              margin-top: -10px; 
+              border-radius: 10px;
+              margin-bottom: -10px;
+            }
+            
+            .body {
+              position: relative;
+              padding: 10px;
+              width: 235px;
+              height: auto;
+              border-radius: 10px;
+              font-size: small;
+              color: aliceblue;
+              margin-top: -11px;
+              margin-left: -16px;
+              /* margin: -20px; */
+              margin-right: -14px;
+              margin-bottom: -13px;
+            }
+            .title{
+              color: aliceblue;
+              width: 100%;
+              height: auto;
+              background-color: rgb(0, 64, 255);
+            
+            }
+            .figer{
+              width: 100%;
+              height: auto;
+              position: relative;
+            }
+            .image{
+              width: 100%;
+              height: 138px;
+              border: 0;
+              border-radius: 10px;
+            }
+            /** tronsation pluc friquent **/
+            .bg_bluc_Fri{
+              
+              background-color: rgb(255 97 118);
+              
+              box-shadow: 0 6px 16px rgb(255 97 118);
+            }
+            
+            .bg_body_vi{
+              
+              background-color: rgb(150 147 147 / 81%);
+              
+              box-shadow: 0 6px 16px rgb(64, 63, 63);
+            }
+            .bg_body_pas_vi{
+              
+              background-color: rgb(212 215 218 / 55%);
+              box-shadow: 0 6px 16px rgb(64, 63, 63);
+              color: black;
+            }
+            
+            .checked{
+              width: 25%;
+              height: 19px;
+              background-color: rgba(62, 62, 62, 0.469);
+              position: absolute;
+              top: 11px;
+              text-align: right;
+            }
+            .checked::after{
+              content: "";
+              padding:0;
+              width: 0px;
+              height: 0px;
+              right: -25px;
+              top: 0;
+              background-color: transparent;
+              
+              position: absolute;
+              border-width: 9.5px;
+              border-style: solid;
+              border-color: rgba(62, 62, 62, 0.687) transparent rgba(62, 62, 62, 0.591) rgba(62, 62, 62, 0.646);
+              /* border-color: azure red black blue;**/
+            
+            }
+            .icone{
+                color: rgb(245, 96, 96);
+               
+                 margin-right: 3px;
+            }
+            .mycheck{
+              text-align: center;
+              margin-top: 12px;
+            }
+            .btncheck{
+              width: 56%;
+              height: 25px;
+              position: relative;
+              /** 
+              border: 1px solid var(--teal);*/
+              border-radius: 12px;
+              background-image: linear-gradient(to bottom right, #f7304b, #e74f4f);
+            }
+            
+            .btn-icon{
+              margin-right: 10px;
+            }
+            
+            .contecte {
+              width: 100%;
+             /** background-color: brown;*/
+              /***/  text-align: center;
+              top: 10px;
+              margin-top: 20px;
+            }
+            .leaflet-container a.leaflet-popup-close-button {
+              position: absolute;
+              top: 0;
+              right: 0;
+              padding: 4px 4px 0 0;
+              border: none;
+              text-align: center;
+              width: 38px;
+              height: 14px;
+              font: 33px/14px Tahoma, Verdana, sans-serif;
+              color: #070759;
+              text-decoration: none;
+              font-weight: bold;
+              background: transparent;
+              
+              animation-play-state:running
+            }
+            .animation-roc {
+              
+              width: 30px;
+              height: 30px;
+              margin-top: 20px;
+              background-color: #b2acacb8;
+              position: relative;
+              border: 1px solid var(--teal);
+              border-radius: 15px;
+              /* border-left-color: #594e4e00; */
+              /* background-image: linear-gradient(to bottom right, #00dc9b, #feb2b2,rgb(209, 109, 109)); */
+              border: 5px solid red;
+              /* border-color: red; */
+              animation-name: spin;
+              animation-duration: 1s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              border-left-color: transparent;
+            }
+            .animation-roc:hover{
+              animation-play-state:paused
+            }
+            @keyframes coloring{
+              0%{
+                background-color: #ff0f67;
+              }
+              25%{
+                background-color: #7b0631;
+              }
+              50%{
+                background-color: #6a0734;
+              }
+              75%{
+                background-color: #8c0b7f;
+              }
+              100%{
+                background-color: #80107b;
+              }
+            
+            }

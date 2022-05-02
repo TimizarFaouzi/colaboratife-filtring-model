@@ -1,0 +1,56 @@
+
+body {
+              overflow-x: hidden;
+              font-family: 'Allerta Stencil', sans-serif;
+              /**background: linear-gradient(to bottom, #0a6fc3, #f96916);*/
+              background-image: url(../../background/map.jpg);
+              background-repeat: no-repeat;
+              /**height: 100%;*/
+             /** background-size: cover;*/
+             background-size: 100% 100%;
+             background-attachment: fixed;
+              min-height: 600px;
+              color: aliceblue;
+              /**position: relative;*/
+            }
+            
+.card-body{
+             /** background-image: linear-gradient(to bottom right, #ec809b, #5feafa);*/
+             /**overflow-x: hidden;
+             font-family: 'Allerta Stencil', sans-serif;
+             background-image: url(../../background/map.jpg);
+             background-repeat: no-repeat;
+             
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            
+             color: white;
+            */
+             /**height: 100%;*/
+             /**background: linear-gradient(to bottom, #0a6fc3, #f96916);*/
+          
+            /** background-size: cover;*/
+            /** min-height: 600px;*/
+            
+            color: rgb(250, 246, 246);
+            }
+            .card-header{/**
+              overflow-x: hidden;
+              font-family: 'Allerta Stencil', sans-serif;
+              /**background: linear-gradient(to bottom, #0a6fc3, #f96916);*/
+              background-image: url(../../background/map.jpg);
+              background-repeat: no-repeat;
+              /**height: 100%;
+              
+             background-size: 100% 100%;
+             background-attachment: fixed;
+              color: white;*/
+             /** background-size: cover;
+              /**background-image: linear-gradient(to bottom right, #dc80ec, #5feafa);*/
+            }
+            .navbar-light{
+                          /** background-image: linear-gradient(to bottom right, #dc80ec, #5feafa);*/
+                          background-image: linear-gradient(to bottom right, #252525, #cec7c7);
+                          color: wheat;
+                          box-shadow: 7px 12px 11px -12px #fff2f2;
+            }
